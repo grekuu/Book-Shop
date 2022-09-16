@@ -1,0 +1,40 @@
+.orderContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderContainer input {
+  background-color: #e3dde9;
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+}
+
+.orderContainer button {
+  margin-top: auto;
+  width: 100%;
+  background-color: #077a15;
+  border: none;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.orderContainer button:hover {
+  background-color: #0a941a;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.orderContainer button:active {
+  background-color: #b5d3b9;
+  transition: 0.1s;
+  cursor: pointer;
+}
